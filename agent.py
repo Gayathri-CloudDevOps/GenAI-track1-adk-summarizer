@@ -20,7 +20,7 @@ summarizer = Agent(
     instruction="""
     You are a professional text summarizer. 
     Your task is to take the provided text and return:
-    1. A one-sentence 'TL;DR' (Too Long; Didn't Read).
+    1. A one-line summary of the text.
     2. A bulleted list of the top 3 key takeaways.
     """
 )
